@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="./assets/styles.css">
 </head>
 <body>
-    <nav class="navbar navbar-light bg-primary">
+    <nav class="navbar navbar-light bg-primary fw-bold">
         <div class="container-fluid fs-5">
           <div class="d-flex align-items-center">
-            <a class="navbar-brand me-4" href="#">STI AGIR</a>
+            <a class="navbar-brand me-4" href="#">STI-AGIR</a>
             <ul class="navbar-nav d-flex flex-row">
               <li class="nav-item me-3">
                 <a class="nav-link" href="#">Cadastrar Pessoa</a>
@@ -26,6 +26,23 @@
           </div>
         </div>
       </nav>
+
+      <section class="d-flex justify-content-center align-items-start mt-5">
+        <div class="p-5 bg-light rounded shadow" style="width: 60%;">
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" placeholder="Nome">
+                <label>Nome</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="number" class="form-control" placeholder="Idade">
+                <label>Idade</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="date" class="form-control" placeholder="Data Início do Curso">
+                <label>Data Início do Curso</label>
+            </div>
+        </div>
+      </section>
     
 </body>
 </html>
