@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     nomeInput.addEventListener("change", function (e) {
         if (e.target.value.trim() === "") {
             e.target.setCustomValidity("O campo nome não pode estar vazio.")
-        }else if (e.target.value.lenght > 250){
+        }else if (e.target.value.length > 250){
             e.target.setCustomValidity("O campo nome não pode ter mais de 250 caracteres.")
         } else{
             e.target.setCustomValidity("")
@@ -37,8 +37,5 @@ document.addEventListener("DOMContentLoaded", function () {
             e.target.setCustomValidity('')
         }
     })
-
-
-
 
 })

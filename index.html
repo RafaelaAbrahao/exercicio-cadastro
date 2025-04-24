@@ -10,44 +10,43 @@
     <script src="./assets/script.js"></script>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand fw-bold" href="#">STI-AGIR</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Cadastrar Pessoa</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Cadastrar Projeto</a>
-                </li>
-            </ul>
-            <a class="btn btn-outline-light" href="#">Sair</a>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="#">STI-AGIR</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Cadastrar Pessoa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cadastrar Projeto</a>
+                    </li>
+                </ul>
+                <a class="btn btn-outline-light" href="#">Sair</a>
+            </div>
         </div>
-    </div>
-  </nav>
+    </nav>
 
-  <form class="d-flex justify-content-center align-items-start mt-5">
-    <div class="p-5 bg-light rounded shadow" style="width: 60%;">
-        <div class="form-floating mb-3">
-            <input type="text" class="form-control" placeholder="Nome" required maxlength="250">
-            <label>Nome</label>
+    <form class="d-flex justify-content-center align-items-start mt-5">
+        <div class="p-5 bg-light rounded shadow" style="width: 60%;">
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" placeholder="Nome" required maxlength="250">
+                <label>Nome</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="number" class="form-control" placeholder="Idade" required min="17" max="100">
+                <label>Idade</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="date" class="form-control" placeholder="Data Início do Curso" required>
+                <label>Data Início do Curso</label>
+            </div>
+            <button type="submit" class="btn mt-3 text-white">Enviar</button>
         </div>
-        <div class="form-floating mb-3">
-            <input type="number" class="form-control" placeholder="Idade" required min="17" max="100">
-            <label>Idade</label>
-        </div>
-        <div class="form-floating mb-3">
-            <input type="date" class="form-control" placeholder="Data Início do Curso" required>
-            <label>Data Início do Curso</label>
-        </div>
-        <button type="submit" class="btn mt-3 text-white">Enviar</button>
-    </div>
-</form>
-   
+    </form>
     
 </body>
 </html>
