@@ -10,3 +10,11 @@
 - **Data de Início do Curso**:
   - Formato: `dd/MM/yyyy`.
   - Deve ser posterior ao ano de nascimento (calculado a partir da idade fornecida).
+
+## Referências utilizadas:
+
+- [w3schools HTML, CSS e JavaScript](https://www.w3schools.com)
+- [Documentação do Bootstrap](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
+- [JavaScriptTutorial](https://www.javascripttutorial.net)
+- [MDN Web Docs - Web APIs](https://developer.mozilla.org/en-US/docs/Web/API)
+- [WHATWG / HTML Living Standard](https://html.spec.whatwg.org)
